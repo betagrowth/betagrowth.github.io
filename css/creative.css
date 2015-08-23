@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #E8373E;
+    color: #327CCB;
 }
 
 h1,
@@ -439,7 +439,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn {
     border: 0;
-    border-radius: 300px;
+    /* border-radius: 300px; */
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
@@ -447,6 +447,11 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 15px 30px;
+}
+
+.btn:hover {
+   opacity: 0.3;
+   background-color: #327CCB;
 }
 
 ::-moz-selection {
